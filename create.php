@@ -15,7 +15,9 @@
                 </div>
                 <div class="card light-blue darken-4 ">
                     <div class="card-content white-text row">
-                        <span class="card-title col s12">Email</span>
+                        <span class="card-title col s12">
+                            Email         
+                        </span>
                     </div>
                     <div class="card-content white-text row"  ng-repeat="email in emails track by $index">
                         <div class="input-field col s10">
@@ -30,6 +32,16 @@
                                 <option value="2">Trabalho</option>
                             </select>
                         </div>
+                        <?php 
+                            if(isset($_GET['email'])) { 
+                                echo "<div class='col s12'>";
+                                    echo "<div class='chip'>";
+                                        echo "Você deve inserir pelo menos um email";
+                                        echo "<i class='close fa fa-times'></i>";
+                                    echo "</div>";
+                                echo "</div>";
+                            } 
+                        ?>
                     </div>
                     <div class="card-action">
                         <button type="button" class="btn light-blue lighten-2" ng-click="addEmail()">Novo</button>
@@ -57,7 +69,17 @@
                                 <option value="2">Residencial</option>
                                 <option value="3">Trabalho</option>
                             </select>
-                          </div>
+                        </div>
+                        <?php 
+                            if(isset($_GET['email'])) { 
+                                echo "<div class='col s12'>";
+                                    echo "<div class='chip'>";
+                                        echo "Você deve inserir pelo menos um telefone";
+                                        echo "<i class='close fa fa-times'></i>";
+                                    echo "</div>";
+                                echo "</div>";
+                            } 
+                        ?>
                     </div>
                     <div class="card-action">
                         <button type="button" class="btn light-blue lighten-2" ng-click="addTelefone()">Novo</button>
