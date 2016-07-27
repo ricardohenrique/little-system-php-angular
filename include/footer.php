@@ -4,7 +4,7 @@
                     <div class="footer-copyright">
                         <div class="container">
                             © 2016 Copyright Ricardo Mota
-                            <a class="grey-text text-lighten-4 right" href="#!">GitHub</a>
+                            <a class="grey-text text-lighten-4 right" href="https://github.com/ricardohenrique/little-system-php-angular" target="blank">GitHub</a>
                         </div>
                     </div>
                 </div>
