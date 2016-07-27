@@ -1,0 +1,53 @@
+﻿---------------------------------------
+1. Base
+a - Crie uma query para buscar os contatos e seus possíveis emails e telefones (e também os tipos de cada um). FEITO
+b - Observação: Um contato pode ter zero, um ou mais emails e telefones. FEITO
+---------------------------------------
+
+---------------------------------------
+2. PHP
+a - Utilize o PDO (ou outra forma que não seja o mysql_query) para executar a query criada acima e busque os dados dos contatos. FEITO
+b - Para os telefones, crie uma forma de separar o número por hífen. Assim, 12345678 e 912345678 devem ser exibidos como 1234-5678 e 91234-5678, respectivamente. FEITO
+c - Utilize orientação a objetos e separe o código PHP do HTML. FEITO
+---------------------------------------
+
+---------------------------------------
+3. HTML + CSS
+a - Através de algum framework front-end (por exemplo, o Bootstrap), crie uma página para exibir de uma maneira agradável os dados retornados pelo seu código PHP. FEITO
+---------------------------------------
+
+---------------------------------------
+4. JSON
+a - Ao invés de exibir os dados do contato diretamente no HTML, crie um arquivo PHP separado para que ele retorne um JSON com os dados dos contatos. FEITO
+---------------------------------------
+
+---------------------------------------
+5. AJAX
+a - Faça uma requisição AJAX e busque os dados JSON do seu arquivo PHP criado no item anterior. FEITO
+b - Para facilitar a requisição, você pode usar alguma biblioteca JavaScript, como por exemplo o jQuery. FEITO
+---------------------------------------
+
+---------------------------------------
+6. Cadastro
+a - Crie um botão Cadastrar para criar um novo contato com ao menos um email e telefone. FEITO
+---------------------------------------
+
+---------------------------------------
+7. JavaScript
+a - Para cada contato, exiba apenas seu ID e nome e crie um botão Visualizar que deve abrir um modal com os dados completos do mesmo.FEITO
+---------------------------------------
+
+---------------------------------------
+8. Paginação
+a - Insira mais contatos na base e crie um sistema de paginação para o relatório. FEITO
+---------------------------------------
+
+---------------------------------------
+9. MVC
+Utilize o design pattern MVC para implementar o sistema. FEITO
+---------------------------------------
+
+---------------------------------------
+10. Item livre
+Exerça sua criatividade e implemente alguma funcionalidade nova nesse mini-sistema. Surpreenda-nos! FEITO
+---------------------------------------

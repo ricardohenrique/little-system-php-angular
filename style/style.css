@@ -1,0 +1,7 @@
+/*Home*/
+.pagination{margin: 10px auto;margin-top: 30px;display: table;}
+.pagination li.active{background-color: #26a69a;}
+
+/*Create*/
+select{background: none!important;color: #fff!important;}
+select option{background: none!important;color:#000;}
